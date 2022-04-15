@@ -11,14 +11,14 @@ export default function TopNav() {
   ));
   return (
     <Navbar className="navbar">
-      <Navbar.Brand as={NavLink} href="/NetFlix">
+      <Navbar.Brand as={NavLink} href="/NetFlix/">
         <img
           src="https://image.tmdb.org/t/p/w500/wwemzKWzjKYJFfCeiB57q3r4Bcm.png"
           className="navbar_logo"
         />
       </Navbar.Brand>
       <Nav>
-        <Nav.Item eventKey="home" as={NavLink} href="/NetFlix" >Home</Nav.Item>
+        <Nav.Item eventKey="home" as={NavLink} href="/NetFlix/" >Home</Nav.Item>
         <Nav.Item eventKey="movies" as={NavLink} href="/NetFlix/movies" >Movies</Nav.Item>
         <Nav.Item eventKey="tvShows" >TV Shows</Nav.Item>
         <Dropdown title="About">
