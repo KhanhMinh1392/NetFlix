@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/NetFlix/static/css/main.d059a9de.css",
+    "main.js": "/NetFlix/static/js/main.ef8e896f.js",
+    "static/css/507.998dad94.chunk.css": "/NetFlix/static/css/507.998dad94.chunk.css",
+    "static/js/507.7ff76d2e.chunk.js": "/NetFlix/static/js/507.7ff76d2e.chunk.js",
+    "static/js/368.1a24349a.chunk.js": "/NetFlix/static/js/368.1a24349a.chunk.js",
+    "static/css/877.bfb77a08.chunk.css": "/NetFlix/static/css/877.bfb77a08.chunk.css",
+    "static/js/877.2e082613.chunk.js": "/NetFlix/static/js/877.2e082613.chunk.js",
+    "static/js/985.0364e269.chunk.js": "/NetFlix/static/js/985.0364e269.chunk.js",
+    "static/js/386.be2d8f56.chunk.js": "/NetFlix/static/js/386.be2d8f56.chunk.js",
+    "index.html": "/NetFlix/index.html",
+    "main.d059a9de.css.map": "/NetFlix/static/css/main.d059a9de.css.map",
+    "main.ef8e896f.js.map": "/NetFlix/static/js/main.ef8e896f.js.map",
+    "507.998dad94.chunk.css.map": "/NetFlix/static/css/507.998dad94.chunk.css.map",
+    "507.7ff76d2e.chunk.js.map": "/NetFlix/static/js/507.7ff76d2e.chunk.js.map",
+    "368.1a24349a.chunk.js.map": "/NetFlix/static/js/368.1a24349a.chunk.js.map",
+    "877.bfb77a08.chunk.css.map": "/NetFlix/static/css/877.bfb77a08.chunk.css.map",
+    "877.2e082613.chunk.js.map": "/NetFlix/static/js/877.2e082613.chunk.js.map",
+    "985.0364e269.chunk.js.map": "/NetFlix/static/js/985.0364e269.chunk.js.map",
+    "386.be2d8f56.chunk.js.map": "/NetFlix/static/js/386.be2d8f56.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d059a9de.css",
+    "static/js/main.ef8e896f.js"
+  ]
+}
