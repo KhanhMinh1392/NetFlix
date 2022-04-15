@@ -11,7 +11,7 @@ export default function TopNav() {
   ));
   return (
     <Navbar className="navbar">
-      <Navbar.Brand as={NavLink} href="/NetFlix/">
+      <Navbar.Brand as={NavLink} href="/">
         <img
           src="https://image.tmdb.org/t/p/w500/wwemzKWzjKYJFfCeiB57q3r4Bcm.png"
           className="navbar_logo"
