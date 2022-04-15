@@ -2,17 +2,17 @@ import React from "react";
 
 const routes = [
   {
-    path: "/NetFlix/",
+    path: "/",
     element: React.lazy(() => import("../../pages/Home/HomeService")),
     exact: true,
   },
   {
-    path: "/NetFlix/movies",
+    path: "/movies",
     element: React.lazy(() => import("../../pages/Movies/MovieService")),
     exact: true,
   },
   {
-    path: "/NetFlix/movie/:id",
+    path: "/movie/:id",
     element: React.lazy(() => import("../../pages/MovieDetail/MovieDetailService")),
     exact: false,
   },

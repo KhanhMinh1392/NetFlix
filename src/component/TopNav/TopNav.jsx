@@ -18,8 +18,8 @@ export default function TopNav() {
         />
       </Navbar.Brand>
       <Nav>
-        <Nav.Item eventKey="home" as={NavLink} href="/NetFlix/" >Home</Nav.Item>
-        <Nav.Item eventKey="movies" as={NavLink} href="/NetFlix/movies" >Movies</Nav.Item>
+        <Nav.Item eventKey="home" as={NavLink} href="/" >Home</Nav.Item>
+        <Nav.Item eventKey="movies" as={NavLink} href="/movies" >Movies</Nav.Item>
         <Nav.Item eventKey="tvShows" >TV Shows</Nav.Item>
         <Dropdown title="About">
           <Dropdown.Item>Company</Dropdown.Item>
