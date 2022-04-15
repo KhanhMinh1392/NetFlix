@@ -1,0 +1,14 @@
+.member-footer{
+    padding: 20px;
+    color: white;
+    background-color: #141414;
+}
+.footer-logo{
+    position: relative;
+    top: 30px;
+    left: 80px;
+    width: 180px;
+}
+.footer-text{
+    text-align: left;
+}
