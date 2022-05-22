@@ -16,6 +16,11 @@ const routes = [
     element: React.lazy(() => import("../../pages/MovieDetail/MovieDetailService")),
     exact: false,
   },
+  {
+    path: "/search",
+    element: React.lazy(() => import("../../pages/Search/SearchService")),
+    exact: false,
+  }
 ];
 
 export default routes;

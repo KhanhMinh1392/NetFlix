@@ -21,6 +21,14 @@ const movieApi = {
     getMovie: (param) => {
         const url = `/movie/${param.id_movie}?api_key=${urlConfig.api_key}`;
         return axiosClient.get(url);
+    },
+    getMovieSimilar: (param) => {
+        const url = `/movie/${param.id_movie}/similar?api_key=${urlConfig.api_key}`;
+        return axiosClient.get(url);
+    },
+    getTrailers: (param) => {
+        const url = `/movie/${param.id_movie}/videos?api_key=${urlConfig.api_key}`;
+        return axiosClient.get(url);
     }
 }
 export default movieApi

@@ -14,9 +14,9 @@ ul.loading-page li {
   float: left;
   width: calc(100% / 3);
   height: calc(100% / 3);
-  background: #262626;
+  background: black;
   animation: animate 0.9s infinite linear;
-  background: rgb(0 0 0 / 67%);
+  background: rgba(255, 255, 255, 0.67);
 }
 
 ul.loading-page li:nth-child(1) {

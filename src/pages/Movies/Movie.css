@@ -1,0 +1,23 @@
+.movie {
+  padding: 0 30px;
+}
+.movie-heading {
+  margin: 0px 20px;
+  padding: 30px;
+}
+.movie-heading-text {
+  display: inline-block;
+}
+.movie-heading-genre {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: super;
+}
+.rs-dropdown-menu {
+  height: 200px;
+  overflow-y: scroll;
+  position: flex;
+}
+.rs-dropdown-menu :hover {
+  background-color: rgba(55, 0, 255, 0.5);
+}

@@ -6,3 +6,8 @@
 .navbar_logo{
     width: 100px;
 }
+.navbar-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

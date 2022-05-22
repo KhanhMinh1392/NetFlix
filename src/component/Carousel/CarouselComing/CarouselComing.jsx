@@ -23,7 +23,7 @@ export default function CarouselComing({ upcoming }) {
                 bodyFill
                 style={{ display: "inline-block", width: 240 }}
               >
-                <img src={urlConfig.url_img + item.poster_path} height="300" />
+                <img src={urlConfig.url_img + item.poster_path} height="100%" />
               </Panel>
             </NavLink>
           </SwiperSlide>

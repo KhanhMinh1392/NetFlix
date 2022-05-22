@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import { Panel } from "rsuite";
 import { A11y, Lazy, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -16,17 +17,18 @@ export default function CarouselList({ popular }) {
       >
         {popular.map((item, index) => (
           <SwiperSlide key={index}>
-            <Panel
-              shaded
-              bordered
-              bodyFill
-              style={{ display: "inline-block", width: 240 }}
-            >
-              <img src={urlConfig.url_img+item.poster_path} height="300" />
-            </Panel>
+            <NavLink to={`/movie/${item.id}`}>
+              <Panel
+                shaded
+                bordered
+                bodyFill
+                style={{ display: "inline-block", width: 240 }}
+              >
+                <img src={urlConfig.url_img + item.poster_path} height="100%" />
+              </Panel>
+            </NavLink>
           </SwiperSlide>
         ))}
-        
       </Swiper>
     </div>
   );
